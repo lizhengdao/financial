@@ -1,0 +1,23 @@
+1.声明视口为当前设备视口，不拉伸：
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+2.设置标题前面的小图标：
+    <link href="favicon.ico" rel="shortcut icon">
+3.设置选中内容的样式
+    ::selection {
+        background: white;
+        color: #25A8CD;
+    }
+
+    ::-moz-selection {
+        background: white;
+        color: #25A8CD;
+    }
+4.设置宽度可用计算式，但是要少用
+  width: calc(33.3333333% - 1rem);
+5.0.3透明度阴影边框，将内容背景设置为white可以实现很好的效果，
+    box-shadow: 0px 0px 2px rgba(0, 0, 0 ,0.3);
+6.使用css滤镜--使内容变成黑白：
+    -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+7.设置边框不另占空间，放在原内容里边
+    box-sizing: border-box;
