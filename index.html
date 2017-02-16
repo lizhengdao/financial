@@ -5,8 +5,8 @@
     <title>理财宝 您身边的理财专家</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link href="favicon.ico" rel="shortcut icon">
-    <link href="style/normalize.css" type="text/css" rel="stylesheet">
-    <link href="style/main.css" type="text/css" rel="stylesheet">
+    <link href="css/normalize.css" type="text/css" rel="stylesheet">
+    <link href="css/main.css" type="text/css" rel="stylesheet">
 
 </head>
 <body>
@@ -18,59 +18,78 @@
 <!--头部导航-->
 <header class="header">
     <nav class="nav-top clear-fix">
-        <span class="pull-left">理财热线: 400-888-8888</span>
+        <span class="pull-left call">理财热线: 400-888-8888</span>
         <ul class="pull-right">
-            <li><a href="#">登录</a></li>
-            <li><a href="#">快速注册</a></li>
-            <li><a href="#">关于</a></li>
-            <li><a href="#">帮助</a></li>
-            <li><a href="#">APP下载</a></li>
+            <li class="login"><a href="#">登录</a></li>
+            <li class="register"><a href="#">快速注册</a></li>
+            <li class="about"><a href="#">关于</a></li>
+            <li class="help"><a href="#">帮助</a></li>
+            <li class="download"><a href="#">APP下载</a></li>
         </ul>
     </nav>
     <nav class="nav-bottom clear-fix">
-        <h1 class="pull-left text-hide">理财宝 <a href=""><img src="./images/logo@1x.png" alt=""/></a></h1>
-        <ul class="pull-right">
-            <li><a href="#">首页</a></li>
-            <li><a href="#">理财频道</a></li>
-            <li><a href="#">投资频道</a></li>
-            <li><a href="#">新手专区</a></li>
-            <li><a href="#">安全保障</a></li>
+        <h1 class="text-hide">理财宝 <a href=""><img src="img/logo@1x.png" alt=""/></a></h1>
+        <ul class="clear-fix">
+            <li class="index"><a href="#">首页</a></li>
+            <li class="financing"><a href="#">理财频道</a></li>
+            <li class="invest"><a href="#">投资频道</a></li>
+            <li class="new"><a href="#">新手专区</a></li>
+            <li class="safe"><a href="#">安全保障</a></li>
         </ul>
     </nav>
 </header>
 <!--报告-->
 <section class="presentation clear-fix">
-    <p class="pull-left"> 平台累计成交金额&nbsp;<span>19888</span>&nbsp;万元&nbsp;&nbsp;
-        过去7日成交金额&nbsp;<span>1888</span>&nbsp;万元
+    <p class="pull-left"> 平台累计成交金额<span>19888</span>万元</p>
+    <p>过去7日成交金额<span>1888</span>万元
     </p>
+
     <a class="pull-right" href="#">查看平台运营报告</a>
 
 </section>
 <!--广告位-->
 <section class="banner clear-fix">
     <ul class="clear-fix">
-        <li><a href="#"><img src="images/ad001-l.png" alt=""/></a></li>
-        <li><a href="#"><img src="images/ad002-l.png" alt=""/></a></li>
-        <li><a href="#"><img src="images/ad003-l.png" alt=""/></a></li>
+        <li><a href="#">
+            <picture>
+                <source srcset="img/ad001-l.png" media="(min-width:80rem)">
+                <source srcset="img/ad001-m.png" media="(min-width:48rem)">
+                <img src="img/ad001.png" alt="2015年度报告">
+            </picture>
+        </a></li>
+        <li><a href="#">
+            <picture>
+                <source srcset="img/ad002-l.png" media="(min-width: 80rem)">
+                <source srcset="img/ad002-m.png" media="(min-width: 48rem)">
+                <img src="img/ad002.png" alt="新年红包">
+            </picture>
+        </a></li>
+        <li><a href="#">
+            <picture>
+                <source srcset="img/ad003-l.png" media="(min-width: 80rem)">
+                <source srcset="img/ad003-m.png" media="(min-width: 48rem)">
+                <img src="img/ad003.png" alt="新手秘籍">
+            </picture>
+        </a></li>
     </ul>
 </section>
 <!--特征-->
 <section class="feature  clear-fix">
-    <div class="feat-item">
+    <div class="feat-item clear-fix">
         <h3>安全</h3>
 
         <p>国家AAA信用平台 <br/>
             银行资金托管<br/>
             上市公司背景保证</p>
     </div>
-    <div class="feat-item">
+    <div class="feat-item clear-fix">
         <h3>权威</h3>
 
         <p>中央电视台推荐 <br/>
             互联网百强企业<br/>
             标准起草单位</p>
     </div>
-    <div class="feat-item">
+    <div class="feat-item clear-fix">
         <h3>省心</h3>
 
         <p>100元起投 <br/>
@@ -83,8 +102,9 @@
 <section class="notice">
     <div class="clear-fix">
         <p>
-            <span class="title">最近公告:&nbsp;</span>
-            <span class="time">2015-12-31</span> <a href="#" class="info">元旦期业务受理及值元旦期业务受理及值班公告元旦期间业务受理及值班公告元旦期间业务受理及值班公告班公告元旦期间业务受理及值班公告元旦期间业务受理及值班公告元旦期业务受理及值班公告元旦期间业务受理及值班公告元旦期间业务受理及值班公告</a>
+            <span class="title">最新公告:&nbsp;</span>
+            <span class="time">2015-12-31</span>
+            <a href="#" class="info">元旦期业务受理及值元旦期业旦班公告元旦期间业务受理及值班及旦期间业务受理及值班公告元旦期业务元旦期业务受理及值元旦期业旦班公告元旦期间业务受理及值班及旦期间业务受理及值班公告受理及值元旦期业旦班公告元旦期间业务受理及值班及旦期间业务受理及值班公告</a>
         </p>
         <a class="more" href="#">更多公告</a>
     </div>
@@ -96,10 +116,11 @@
         <div class="title">
             <h2>
                 固定期限产品
-                <em>甄选优质基金</em>
-                <em>省时省力</em>
-                <em>坐等收益</em>
+
             </h2>
+            <em class="m-top">甄选优质基金</em>
+            <em>省时省力</em>
+            <em>坐等收益</em>
         </div>
         <div class="produce-con">
             <div class="produce-item clear-fix">
@@ -171,9 +192,9 @@
         <div class="title">
             <h2>
                 债权/散标产品
-                <em>自主投资</em>
-                <em>期限灵活</em>
             </h2>
+            <em class="m-top">自主投资</em>
+            <em>期限灵活</em>
         </div>
         <div class="produce-con">
             <div class="produce-item clear-fix">
@@ -298,25 +319,25 @@
 </section>
 <footer class="footer">
 
-        <ul class="clear-fix">
-            <li class="icon-seti"></li>
-            <li class="icon-pci"></li>
-            <li class="icon-visa"></li>
-            <li class="icon-veri"></li>
-            <li class="icon-yuan"></li>
-            <li class="icon-kexin"></li>
-            <li class="icon-gongan"></li>
+    <ul class="clear-fix">
+        <li class="icon-seti"></li>
+        <li class="icon-pci"></li>
+        <li class="icon-visa"></li>
+        <li class="icon-veri"></li>
+        <li class="icon-yuan"></li>
+        <li class="icon-kexin"></li>
+        <li class="icon-gongan"></li>
 
 
-        </ul>
+    </ul>
 
 
     <p>北京某互联网金融公司 版权所有 ® 2015-2016</p>
 
 </footer>
-<script src="//code.jquery.com/jquery-latest.min.js"></script>
-<script src="//unslider.com/unslider.js"></script>
-<!--<script src="libs/unslider-min.js"></script>-->
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="http://unslider.com/unslider.js"></script>
+<script src="js/picturefill.min.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
