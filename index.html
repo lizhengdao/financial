@@ -3,16 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>理财宝 您身边的理财专家</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link href="favicon.ico" rel="shortcut icon">
-    <link href="css/normalize.css" type="text/css" rel="stylesheet">
-    <link href="css/main.css" type="text/css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="author" content="农韦依,Maggie"/>
+    <link href="favicon.ico" rel="shortcut icon"/>
+    <link href="css/normalize.css" type="text/css" rel="stylesheet"/>
+    <link href="css/main.css" type="text/css" rel="stylesheet"/>
+    <link href="css/main480.css" media="(max-width: 48em)" type="text/css" rel="stylesheet"/>
+    <link href="css/main480_800.css" media="(min-width: 48em) and (max-width: 80em)"
+          type="text/css" rel="stylesheet"/>
+    <link href="css/main800.css" media="(min-width: 80em)"
+          type="text/css" rel="stylesheet"/>
 
 </head>
 <body>
 <!--版本过低的内容提示-->
-<!--[if lte IE8]>
-<p class="tips">您的浏览器版本过低，请您使用最新的浏览器访问本网站，也可 <a href="http://browsehappy.com/">点击这里</a>下载最新浏览器</p>
+<!--[if lte IE 8]>
+<p class="tips">检测到您的浏览器版本过低，为了获得更好的体验，请您使用最新的浏览器访问本网站，也可 <a href="http://browsehappy.com/">点击这里</a>下载最新浏览器</p>
+<script src="js/html5shiv.min.js"></script>
 <![endif]-->
 
 <!--头部导航-->
@@ -40,11 +47,12 @@
 </header>
 <!--报告-->
 <section class="presentation clear-fix">
-    <p class="pull-left"> 平台累计成交金额<span>19888</span>万元</p>
-    <p>过去7日成交金额<span>1888</span>万元
+    <p class="average pull-left"> 平台累计成交金额<span>19888</span>万元</p>
+
+    <p class="past pull-left">过去7日成交金额<span>1888</span>万元
     </p>
 
-    <a class="pull-right" href="#">查看平台运营报告</a>
+    <p class="link pull-right" ><a href="#">查看平台运营报告</a></p>
 
 </section>
 <!--广告位-->
@@ -104,7 +112,7 @@
         <p>
             <span class="title">最新公告:&nbsp;</span>
             <span class="time">2015-12-31</span>
-            <a href="#" class="info">元旦期业务受理及值元旦期业旦班公告元旦期间业务受理及值班及旦期间业务受理及值班公告元旦期业务元旦期业务受理及值元旦期业旦班公告元旦期间业务受理及值班及旦期间业务受理及值班公告受理及值元旦期业旦班公告元旦期间业务受理及值班及旦期间业务受理及值班公告</a>
+            <a href="#" class="info">元旦期业务受理及值元旦期业旦班公告元旦期间业务受理及值班及旦期元旦期业旦班间业及值班及旦期间业务受理及值班公告</a>
         </p>
         <a class="more" href="#">更多公告</a>
     </div>
@@ -338,6 +346,9 @@
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script src="http://unslider.com/unslider.js"></script>
 <script src="js/picturefill.min.js"></script>
+<script src="js/rem.min.js"></script>
 <script src="js/main.js"></script>
+<script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+
 </body>
 </html>

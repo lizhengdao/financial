@@ -1,0 +1,153 @@
+@charset "utf-8";
+
+/*nav-bottom*/
+.call, .help, .about {
+    display: none !important;
+}
+
+.nav-bottom h1 {
+    float: none;
+}
+
+.nav-bottom ul {
+    float: none;
+    font-weight: normal;
+    padding-left: 0.3rem;
+    width: 35rem;
+    margin: 0 auto;
+}
+
+.nav-bottom li + li {
+    border-left: none;
+}
+
+.nav-bottom li > a {
+    padding: 1rem 0.6rem 2rem 0.6rem;
+}
+
+.nav-bottom .index {
+    display: none !important;
+}
+
+/*presentation*/
+.presentation {
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 0;
+    line-height: 3.2rem;
+    height: auto;
+}
+
+.presentation p {
+    float: none;
+    text-align: center;
+    width: 100%;
+}
+/*public*/
+.feature, .notice, .produce, .footer-nav {
+    padding: 1rem;
+}
+
+/*feature*/
+.feat-item {
+    width: 100%;
+    margin-bottom: 1.5rem !important;
+}
+
+.feature .feat-item + .feat-item {
+    margin: 0;
+}
+
+.feat-item h3 {
+    margin-top: 1.2rem;
+    height: auto;
+    line-height: normal;
+}
+/*banner*/
+.banner {
+    height: 25rem !important;
+}
+
+.banner ul li {
+    height: 25rem;
+}
+
+
+/*produce*/
+.produce-box .title {
+    float: none;
+    width: 100%;
+    height: auto;
+    padding: 1.5rem 0;
+}
+
+.produce-con {
+    float: none;
+    width: 100%;
+    height: auto;
+}
+
+.produce-item .buy a{
+    width: 60%;
+}
+
+.produce-box .title em {
+    display: inline-block;
+    font-size: 1.2rem;
+}
+
+.produce-box {
+    height: auto;
+}
+
+.produce-box .title em:first-child {
+    margin-top: 0;
+}
+
+.produce-box .title h2 {
+    display: block;
+    margin-top: 0;
+    font-size: 2rem;
+}
+
+.produce-con .duration {
+    width: 33%;
+}
+
+.produce-con .info {
+    width: 66%;
+}
+
+.produce-con .buy {
+    width: 100%;
+    margin-bottom: 2rem;
+    /*margin-bottom: 2rem;*/
+}
+.produce-item .duration span {
+
+    font-size: 3rem;
+}
+
+.produce-item .info span {
+
+    font-size: 2.4rem;
+}
+.produce-item .duration, .produce-item .buy, .produce-item .info {
+    border: none;
+    height: 8rem;
+}
+
+
+/*notice*/
+.notice .time {
+    display: none;
+}
+/*footer*/
+
+.footer-nav span {
+    display: none;
+}
+
+.footer-nav .title {
+    font-size: 1.4rem;
+}

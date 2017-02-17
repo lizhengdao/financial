@@ -1,0 +1,78 @@
+@charset "utf-8";
+/*public*/
+.feature, .notice, .produce, .footer-nav {
+    padding: 1rem;
+}
+
+/*nav-bottom*/
+.nav-bottom h1 {
+    float: none;
+}
+
+.nav-bottom ul {
+    float: none;
+    width: 60rem;
+    margin: 0 auto;
+}
+
+.nav-bottom li + li {
+    border-left: none;
+}
+
+/*presentation*/
+.presentation {
+    font-size: 1.4rem;
+}
+
+/*banner*/
+.banner {
+    height: 30rem !important;
+}
+
+.banner ul li {
+    height: 30rem;
+}
+
+/*feature*/
+.feat-item h3, .feat-item p {
+    float: none;
+    text-align: center;
+}
+
+.feat-item h3 {
+    padding: 0;
+    height: auto;
+    line-height: normal;
+}
+
+/*produce*/
+.produce-box .title {
+    float: none;
+    width: 100%;
+    height: auto;
+    padding: 1.5rem 0;
+}
+
+.produce-con {
+    float: none;
+    width: 100%;
+    height: auto;
+}
+
+.produce-box .title em {
+    display: inline-block;
+}
+
+.produce-box {
+    height: auto;
+
+}
+
+.produce-box .title em:first-child {
+    margin-top: 0;
+}
+
+.produce-box .title h2 {
+    display: inline-block;
+    margin-top: 0;
+}
