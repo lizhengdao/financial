@@ -24,15 +24,6 @@
     font-size: 1.4rem;
 }
 
-/*banner*/
-.banner {
-    height: 30rem !important;
-}
-
-.banner ul li {
-    height: 30rem;
-}
-
 /*feature*/
 .feat-item h3, .feat-item p {
     float: none;

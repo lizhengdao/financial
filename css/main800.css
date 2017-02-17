@@ -34,11 +34,3 @@
 
 }
 
-/*banner*/
-.banner {
-    height: 45rem;
-}
-
-.banner ul li {
-    height: 45rem !important;
-}
